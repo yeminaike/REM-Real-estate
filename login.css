@@ -1,0 +1,344 @@
+
+
+.logo2{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+    
+}
+
+
+.login-image{
+    border-radius: 1.5rem;
+}
+
+
+.real-estate-logo{
+    width: 10rem;
+    height: 10rem;
+}
+
+
+
+.login-pic-container{
+   padding-left: 12.9688rem; 
+}
+
+.Login-text{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    margin-top: 10.3125rem;
+    padding-left: 8rem;
+    
+}
+
+.login-image-text{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 14rem
+
+}
+.log-link{
+    color:#1C1C1C;
+    border:none;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+
+.google-text{
+    color:#1C1C1C;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+}
+
+.Login-with{
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+}
+.goggle-with-text {
+    display: flex;
+    align-items: center;
+    padding-left: 6.875rem;
+    padding-right: 6.875rem;
+    gap: 0.5rem; 
+    border: 2px solid #F0EDFF; 
+    
+    border-radius: 8px; 
+    width: 55%; 
+    
+}
+
+
+.goggle-img{
+    margin-top: 0.3rem;
+}
+
+.dashed-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.border {
+    width: 50px; /* Set a fixed width for shorter lines */
+    height: 0.0625rem; /* Thickness of the line */
+    background-color: #F0EDFF; /* Line color */
+    padding-left: 3rem;
+}
+
+.dashed-text {
+    font-size: 0.875rem; /* Adjust the text size */
+    font-weight: 500; /* Make the text bold */
+    color: #1C1C1C; /* Text color */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.login-link{
+    text-decoration: none;
+    color:#1C1C1C;
+}
+
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #F0EDFFCC; 
+    border-radius: 1rem; 
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 1.125rem;
+    width: 40%; 
+    
+}
+
+.email-icon {
+    width: 1rem; /* Adjust icon size */
+    height: 1rem;
+   
+}
+
+.email-input {
+    border: none; 
+    outline: none; 
+    background: transparent; 
+    font-size: 1rem; 
+    color: #1C1C1C; 
+    padding-left: 0.5rem;
+}
+
+.email-input::placeholder {
+    color: #1C1C1C; 
+}
+
+.email-input:focus {
+    outline: none; 
+}
+
+
+
+
+
+.input-container-two {
+    display: flex;
+    align-items: center;
+    background-color: #F0EDFFCC; 
+    border-radius: 1rem; 
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 1.125rem;
+    width: 40%; 
+    margin-top: 1.125rem
+    
+}
+
+.password-icon {
+    width: 1rem; /* Adjust icon size */
+    height: 1rem;
+   
+}
+
+.password-input {
+    border: none; 
+    outline: none; 
+    background: transparent; 
+    font-size: 1rem; 
+    color: #1C1C1C; 
+    padding-left: 0.5rem;
+}
+
+.password-input::placeholder {
+    color: #1C1C1C; 
+}
+
+.password-input:focus {
+    outline: none; 
+}
+
+
+.forgot-password {
+    
+    display: flex;
+    margin-left: 15rem;
+}
+
+.forgot-password-link {
+    text-decoration: none;
+    color: #1C1C1C; 
+    font-size: 0.875rem; /* Adjust font size */
+    font-weight: 500;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline; /
+}
+
+.log-btn {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    background: #fff;
+    border-radius: 6.25rem;
+    padding: 0.75rem 2.625rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    width: fit-content; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.no-account{
+    margin-left: 4rem;
+}
+
+.signup-link{
+    text-decoration: none;
+    color: #1C1C1C
+}
+
+/* Error message styling */
+.error-message {
+    color: red; /* Error text in red */
+    font-size: 0.85rem; /* Smaller font size */
+    margin-top: 5px; /* Spacing above the error message */
+    display: block; /* Ensure it appears on a new line */
+    font-weight: bold; /* Make the message bold */
+}
+
+
+@media (max-width:640px){
+    
+.login-pic-container{
+    padding-left: 1rem; 
+ }
+
+ .logo2{
+     padding-left: 1rem;
+     padding-right: 1rem;
+     padding-top: 1.375rem;
+    
+     
+ }
+
+ 
+.login-image-text{
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+
+ 
+ .input-container {
+     display: flex;
+     align-items: center;
+     background-color: #F0EDFFCC; 
+     border-radius: 1rem; 
+     padding-top: 1.0625rem;
+     padding-bottom: 1.0625rem;
+     padding-left: 1.125rem;
+     width: 95%; 
+     
+ }
+
+ 
+.login-image{
+    border-radius: 1.5rem;
+    width: 20rem;
+    height: 30rem;
+}
+
+.input-container-two {
+    display: flex;
+    align-items: center;
+    background-color: #F0EDFFCC; 
+    border-radius: 1rem; 
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 1.125rem;
+    width: 95%; 
+    margin-top: 1.125rem
+    
+}
+
+
+
+}
+
+
+
+@media (min-width:640px){
+   
+ .input-container {
+    display: flex;
+    align-items: center;
+    background-color: #F0EDFFCC; 
+    border-radius: 1rem; 
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 1.125rem;
+    width: 60%; 
+    
+}
+
+.input-container-two {
+    display: flex;
+    align-items: center;
+    background-color: #F0EDFFCC; 
+    border-radius: 1rem; 
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 1.125rem;
+    width: 60%; 
+    margin-top: 1.125rem
+    
+}
+
+.goggle-with-text {
+    display: flex;
+    align-items: center;
+    padding-left: 6.875rem;
+    padding-right: 6.875rem;
+    gap: 0.5rem; 
+    border: 2px solid #F0EDFF; 
+    
+    border-radius: 8px; 
+    width: 35%; 
+    
+}
+
+}
+
+
+
+
+

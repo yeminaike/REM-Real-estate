@@ -1,0 +1,265 @@
+.buyer-container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.nav-buyer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 2.625rem auto;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.searching {
+    background-color: #F5F5F5;
+    border-radius: 6.25rem;
+    width: 100%;
+    min-width: 300px;
+    padding: 1.0625rem 4rem 1.0625rem 2rem; /* Padding adjusted for icon */
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.search-icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.6rem;
+    height: 2.6rem;
+    pointer-events: none;
+}
+
+
+
+.tab-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375rem;
+    margin-top: 1.5rem
+    
+}
+
+.price{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    background: #fff;
+    border-radius: 6.25rem;
+    padding: 0.75rem 2.625rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    width: fit-content; 
+
+}
+
+.price:hover {
+    background: #775F46;
+    color: #fff;
+}
+
+.bedroom{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    background: #fff;
+    border-radius: 6.25rem;
+    padding: 0.75rem 2.625rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    width: fit-content; 
+}
+
+
+.bedroom:hover {
+    background: #775F46;
+    color: #fff;
+}
+
+
+.bathroom{
+
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    background: #fff;
+    border-radius: 6.25rem;
+    padding: 0.75rem 2.625rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    width: fit-content; 
+
+}
+
+.bathroom:hover {
+    background: #775F46;
+    color: #fff;
+}
+
+
+.amenities{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    background: #fff;
+    border-radius: 6.25rem;
+    padding: 0.75rem 2.625rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    width: fit-content; 
+
+}
+
+
+.amenities:hover {
+    background: #775F46;
+    color: #fff;
+}
+
+.property{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    background: #fff;
+    border-radius: 6.25rem;
+    padding: 0.75rem 2.625rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    width: fit-content; 
+
+}
+
+
+.property:hover {
+    background: #775F46;
+    color: #fff;
+}
+
+
+.house {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); 
+   
+    gap: 2rem; /* Gap between cards */
+    margin-top: 4.375rem;
+}
+
+.card {
+    background-color: #ffffff; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 0.5rem; 
+    
+}
+
+.card p {
+    font-weight: 500;
+    line-height: 1.0256rem;
+    font-size: 1rem;
+    color: #333333; 
+    padding-left: 0.75rem;
+}
+
+.bedroomApartment {
+    width: 100%; 
+    height: 17rem;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+.image-container {
+    position: relative;
+    width: 100%; 
+    height: 17rem 
+}
+
+.amount {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-weight: 600;
+ 
+   
+   
+}
+
+
+.load{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    background: #fff;
+    border-radius: 6.25rem;
+    padding: 0.75rem 2.625rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    width: fit-content; 
+
+}
+
+.load-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.6637rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 640px) {
+    .buyer-container {
+        padding-left: 1rem; /* Adjust padding for smaller screens */
+        padding-right: 1rem;
+    }
+    .search-container {
+        max-width: 100%; /* Let the container use full width */
+    }
+    .searching {
+        min-width: 0; /* Allow input to shrink further */
+        padding: 1rem 3rem 1rem 1.5rem; /* Adjust padding for smaller screens */
+    }
+    .search-icon {
+        right: 0.5rem; /* Adjust icon position */
+    }
+}
+
+
+@media (max-width:640px){
+    .tab-container{
+        flex-direction: column;
+        
+    }
+
+}
+
+
+

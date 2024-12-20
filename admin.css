@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .main-container {
+    display: flex;
+    
+    
+  }
+  .sidebar {
+    width: 250px;
+    background-color: #FFF1E2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+
+    
+    
+  }
+  
+  .sidebar-logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 20px 0;
+  }
+  
+  .sidebar ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    padding: 2px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-icon {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .list-end-icon {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .notify-icon,
+  .avatar {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .main-content {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+
+  }
+
+
+  .Workspace-name{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .work-text{
+    font-weight: 700;
+    font-size: 2.625rem;
+    line-height: 3.4125rem;
+  }
+
+  .pen-edit{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .pen-con{
+    margin-top: 3.5rem;
+  }
+
+
+  .work-admin-text{
+    font-size: 2rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+  }
+
+  .profile-cards {
+    width: 10.875rem;
+    height: 12.5rem;
+    background-color: #fff1e2;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* To allow absolute positioning of children */
+    padding: 0.5rem;
+  }
+
+  .John{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+.john-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-guy {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem; 
+  }
+
+  .name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .MrJohnson{
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.2188rem;
+    color: #000000;
+  }
+
+  .ceo{
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.2188rem;
+    color: #747474;
+  }
+
+  .profile-container{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .new-cards{
+    width: 10.875rem;
+    height: 12.5rem;
+    background-color: #fff1e2;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* To allow absolute positioning of children */
+    padding: 0.5rem;
+  }
+
+  .plusandAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-add{
+    margin-top: 3rem;
+  }
+
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+thead {
+    background-color: #f4f4f4;
+}
+th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+th {
+    font-weight: bold;
+}
+tbody tr {
+    background-color: #fff;
+}
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.avatar {
+    width: 2.6875rem;
+    height: 2.6875rem;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.checkbox {
+    text-align: center;
+}
+
+.table-container{
+    margin-top: 5rem;
+}
+
+.tab1-container{
+    display: flex;
+    gap:1rem;
+}
